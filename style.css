@@ -1,0 +1,241 @@
+
+
+header {
+  display: flex;
+  position: relative;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  background-color: rgb(232, 218, 239);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: rgb(195, 60, 7);
+  text-align: center;
+   background: linear-gradient(to right, #67ca71, #95e4f2); /* Irish green to a light blue */
+  
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.top-buttons-nav {
+  position: absolute;
+  right: 30px;
+  gap: 10px;
+  margin-top: 20px;
+  margin-right: 40px;
+  top: 20px;
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.nav-button {
+  background-color: #e05780; 
+  font: Dosis, sans-serif;
+  color: rgb(13, 39, 171);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+header h1 {
+  font-size: 63px;
+  color: #009E60; 
+  margin-bottom: 10px;
+}
+
+
+
+.projects-button {
+  background-color: #009E60; 
+  color: rgb(20, 20, 20);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 150px;
+ 
+}
+
+.about-me-button {
+  background-color: #009E60; 
+  color: rgb(178, 252, 178);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: auto;
+}
+
+
+.skills-button {
+  background-color: #c9f9a2; 
+  color: rgb(178, 252, 178);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: auto;
+}
+
+.left-corner-gif {
+  position: absolute;
+  top: ;: 20px;
+  left: 20px;
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+.right-corner-gif {
+  position: absolute;
+  bottom: ;: 20px;
+  right: 20px;
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+section.about-me {
+
+  text-align: left;
+  padding: 50px;
+  background-color: hsl(189, 56%, 79%);
+
+}
+
+
+section.skills {
+
+  text-align: left;
+  padding: 50px;
+  background-color: hsl(189, 80%, 78%);
+
+}
+section.my-projects {
+  text-align: Center;
+  padding: 50px;
+  background-color: #f7f8eb;
+  
+  }
+
+.cooking-image {
+  width: 350px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+
+section.form-section {
+  text-align: left;
+  padding: 100px;
+  border: #009E60;
+  background-color: cornsilk;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #979d9e; 
+  color: rgb(8, 8, 8);
+  
+}
+
+.footer p {
+  margin: 10px;
+  font-size: 23px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.social-media a {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.social-media img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+
+}
+@media (max-width: 768px) {
+  header {
+    height: auto;
+    padding: 20px;
+  }
+
+  .top-buttons-nav {
+    position: static;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin:20px 0;
+  }
+
+  .nav-button, .projects-button, .about-me-button, .skills-button {
+    width: 100%;
+    margin-bottom: 10px;
+    margin:20px 0;
+  }
+
+  .left-corner-gif, .right-corner-gif {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  .recipe-image {
+    width: 100%;
+    height: auto;
+  }
+  .social-media img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 36px;
+  }
+
+  .nav-button, .projects-button, .about-me-button, .skills-button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  section.about-me, section.skills, section.my-projects, section.form-section {
+    padding: 14px;
+  }
+
+  .cooking-image {
+    width: 100%;
+    height: auto;
+  }
+    .footer p {
+        font-size: 18px;
+    }
+}
