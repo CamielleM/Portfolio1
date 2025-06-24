@@ -93,7 +93,7 @@ header h1 {
 
 .left-corner-gif {
   position: absolute;
-  top: ;: 20px;
+  top:20px;
   left: 20px;
   width: 300px;
   height: auto;
@@ -101,7 +101,7 @@ header h1 {
 }
 .right-corner-gif {
   position: absolute;
-  bottom: ;: 20px;
+  bottom:20px;
   right: 20px;
   width: 300px;
   height: auto;
